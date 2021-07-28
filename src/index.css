@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  width : 1920px;
+  height : 10629px;
+  /* border : 5px solid red; */
+}
+
+
+.headBarButton_1
+{
+  float : left;
+  display : inline-block;
+  /* border : 1px solid pink; */
+  margin-left: 5px;
+  height:100%;
+  width : 45%;
+}
+
+.headBarButton_2
+{
+  float : right;
+  display : inline-block;
+  /* border : 1px solid orange; */
+  height : 100%;
+  width : 45%;
+}
+
+
+.RearBar
+{
+  border : 5px solid blue;
+  height: 30%;
+  background-color: lightcoral;
+}
+
+.RearBar button
+{
+  width : 20%;
+  height : 100%;
+  margin : 10px;
+}
+.box1
+{
+  width: 1920px;
+  height: 900px;
+  scale: 70%;
+  margin: 0 0 140.8px;
+  /* padding: 52px 39px 561.2px 49px; */
+  background-image: url('./image/back_header1.png');
+  object-fit: contain;
+}

@@ -10,6 +10,7 @@ import HomeImage2 from '../assets/HomeImage2.png';
 import HomeReviews from '../assets/HomeReviews.png';
 import HomeMoreButton from '../assets/HomeMoreButton.png';
 import HomeGuide from '../assets/HomeGuide.png';
+import HomeNews from '../assets/HomeNews.png';
 import '../css/Home.css';
 
 class Home extends Component {
@@ -42,7 +43,8 @@ class Home extends Component {
                     <button><img src = {HomeMoreButton}></img></button>
                     <div className = "box3"></div>
                     <img src = {HomeGuide}></img>
-
+                    <br></br>
+                    <img src = {HomeNews}></img>
                 </div>
 
                 

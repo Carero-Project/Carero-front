@@ -11,6 +11,7 @@ import HomeReviews from '../assets/HomeReviews.png';
 import HomeMoreButton from '../assets/HomeMoreButton.png';
 import HomeGuide from '../assets/HomeGuide.png';
 import HomeNews from '../assets/HomeNews.png';
+import HomeBlack from '../assets/HomeBlack.png';
 import '../css/Home.css';
 
 class Home extends Component {
@@ -45,6 +46,8 @@ class Home extends Component {
                     <img src = {HomeGuide}></img>
                     <br></br>
                     <img src = {HomeNews}></img>
+                    <br></br>
+                    <img src = {HomeBlack}></img>
                 </div>
 
                 

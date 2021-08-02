@@ -1,6 +1,10 @@
 .App {
   text-align: center;
-  
+
+  /* added for vw */
+  width : 100vw;
+  align-content: center;
+  margin : 0 auto;
 }
 
 .App-logo {

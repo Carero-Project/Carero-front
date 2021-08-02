@@ -17,7 +17,8 @@ import '../css/Home.css';
 class Home extends Component {
     render() {
         return (
-            <div>
+            <div className = "wrapper2">
+                <meta name = "viewport" content = "width=device-width, intitial-scale=1.0"></meta>
                 <h1>This is home page</h1>
                 <div className = "box1">
                     

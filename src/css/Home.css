@@ -1,11 +1,21 @@
+.wrapper2{
+    margin : 0 auto;
+    border : 5px solid black;
+    /* background-color:red; */
+    text-align : center;
+    align-content: center;
+    width : 100vw;
+}
+
 .box1{
-    width : 100%;
-    
+    border : 10px solid green;
+    /* width : 100vw; */
+    /* width : 100%; */
     background-image : url(../assets/HomeImage.png);
 }
 .box2{
     font-weight: bold;
-    
+    text-align : center;
 
 }
 .boxButton{

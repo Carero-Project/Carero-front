@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { useState, Component } from 'react';
 import './App.css';
 import GridTesting from './components/GridTesting';
 import GridTesting2 from './components/GridTesting2';
 import Home from './components/Home';
-import Cares from './component/Cares';
-
+import Cares from './components/Cares';
+import axios from 'axios';
 import {
    Route,
    Switch,
@@ -14,7 +14,37 @@ import {
 
 function App() {
 
+  // let [photos, setPhotos] = useState([]);
+  // function searchApi(){
+  //   const url = "https://jsonplaceholder.typicode.com/photos";
+  //   axios.get(url)
+  //   .then(function(response){
+  //     setPhotos(response.data);
+  //     console.log("성공");
+  //   })
+  //   .catch(function(error){
+  //     console.log("실패");
+  //   })
+  // }
 
+  // if(photos.length > 0){
+  //   return(
+  //     photos.map(photo => (
+  //       (photo.id < 10) ? (
+  //         <div key = {photo.id}>
+  //           <img src = {photo.thumbnailUrl} alt = "img"/>
+  //           <p>title : {photo.title}</p>
+  //         </div>)
+  //         :null
+  //     ))
+  //   );
+  // }else{
+  //   return(
+  //     <div>
+  //       <button onClick = {searchApi}>불러오기</button>
+  //       </div>
+  //   )
+  // }
   
   return (
     <div className="App">

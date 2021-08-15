@@ -1,9 +1,16 @@
 #selectBox1{
     width : 100%;
+    height : 10vw;
+    background-color:#FCF3EB;
+    padding-top : 3vw;
+}
+
+#ProfileBox
+{
+    width : 100%;
     height : 100%;
     background-color:#FCF3EB;
 }
-
 
 select{
     border-radius: 50px;

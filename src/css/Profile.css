@@ -1,0 +1,47 @@
+#ProfileWrapper{
+    background-color:white;
+    width : 90%;
+    margin-left:5%;
+    margin-top:30px;
+    border:1px solid red;
+    display:flex;
+    flex-direction: row;
+    font-size:15px;
+}
+#ProfileWrapper :nth-child(1){flex-grow:2; order : 1;}
+#ProflieWrapper :nth-child(2){flex-grow:3; order : 2;}
+
+#ProfileWrapper > div{
+    border : 1px solid green;
+}
+.leftBox{
+    width : 45%;
+    align-items: center;
+}
+.rightBox{
+    width : 55%;
+}
+
+#imageBox{
+    background-color:#F9F9F9;
+    border-radius: 20px;
+    width:100%;
+}
+
+.yoil{
+    border : 1px solid gray;
+}
+
+.typeCover{
+    border:2.5px solid #FB8922;
+    border-radius: 50px;
+    font-weight: bold;
+    display:inline-block;
+    width:60px;
+    margin-left:0;
+}
+
+.yoil{
+    background-color:orange;
+    color : white;
+}

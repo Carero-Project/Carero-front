@@ -28,20 +28,36 @@
     width:100%;
 }
 
-.yoil{
-    border : 1px solid gray;
-}
-
 .typeCover{
     border:2.5px solid #FB8922;
     border-radius: 50px;
     font-weight: bold;
     display:inline-block;
-    width:60px;
+    
+    margin-left:0;
+}
+
+.typeColoredCover{
+    border:2.5px solid #FB8922;
+    color : white;
+    background-color: #FB8922;
+    border-radius: 50px;
+    font-weight: bold;
+    display:inline-block;
+    
     margin-left:0;
 }
 
 .yoil{
-    background-color:orange;
+    color : black;
+    border : 1px solid black;
+    margin : 6px;
+    
+}
+
+.yoilColored{
+    background-color: #FB8922;
+    border : 1px solid #FB8922;
     color : white;
+    margin : 6px;
 }

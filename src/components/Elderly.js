@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../css/Children.css';
 import Form1 from './Form1';
-
+// 공고 등록
 class Elderly extends Component {
     render() {
         return (

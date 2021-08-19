@@ -7,9 +7,7 @@ class Cares extends Component {
 
     constructor(props){
         super(props);
-    }
-
-    
+    } 
     
     Testing12 = () => {
         
@@ -24,21 +22,16 @@ class Cares extends Component {
     }
 
 
-
-
-
-
     render() {
 
         const data1 = {
             id: 2,
             title: "최선을 다하겠습니다",
             username: "Choi1234",
-            cat: "아동",
+            cat: "펫",
             subCats: [
-                "베이비시터",
-                "등하원시터",
-                "학습시터"
+                "조련사",
+                "도그워커"
             ],
             city: "서울특별시",
             sigungu: "관악구",
@@ -69,8 +62,48 @@ class Cares extends Component {
             wageType: "월급",
             wage: "150만원",
             wantedStartDate: "2021-08-12",
-            workWeek: "화목금토"  
+            workWeek: "화수목"  
     };
+        const data3 = {
+            id: 3,
+            title: "맡겨만 주십시오",
+            username: "Mr.Kim",
+            cat: "노인",
+            subCats: [
+                "간병인",
+                "물리치료사",
+                "간호사"
+            ],
+            city: "서울특별시",
+            sigungu: "강남구",
+            status: true,
+            createdDate: "2021-08-04T17:33:21.774797",
+            modifiedDate: "2021-08-04T17:33:21.774797",
+            viewCount: 0,
+            wageType: "월급",
+            wage: "150만원",
+            wantedStartDate: "2021-08-12",
+            workWeek: "화목토일"  
+    };
+        const data4 = {
+            id: 3,
+            title: "10년 경력으로 자신있습니다",
+            username: "Mr.Kim",
+            cat: "가사",
+            subCats: [
+                "음식/주방"
+            ],
+            city: "서울특별시",
+            sigungu: "송파구",
+            status: true,
+            createdDate: "2021-08-04T17:33:21.774797",
+            modifiedDate: "2021-08-04T17:33:21.774797",
+            viewCount: 0,
+            wageType: "월급",
+            wage: "150만원",
+            wantedStartDate: "2021-08-12",
+            workWeek: "월수금"  
+        };
 
 
 
@@ -123,8 +156,8 @@ class Cares extends Component {
                             <span>ProfileBox</span>
                             <Profile data = {data1}></Profile>
                             <Profile data = {data2}></Profile>
-                            <Profile data = {data1}></Profile>
-                            <Profile data = {data2}></Profile>
+                            <Profile data = {data3}></Profile>
+                            <Profile data = {data4}></Profile>
                             <Profile data = {data1}></Profile>
 
 

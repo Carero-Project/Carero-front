@@ -3,7 +3,7 @@ import '../css/Children.css';
 import group_plus from '../assets/group_plus.png';
 import group_card from '../assets/group_card.png';
 import group_plus2 from '../assets/group_plus2.png';
-
+// 프로필 작성을 위한 선택지 페이지
 class Form2 extends Component {
 
     constructor(props){
@@ -289,14 +289,14 @@ class Form2 extends Component {
 
                         <div>
                             <div className = "left3">
-                                <span>수료증 / 자격증</span>
+                                <span>수료증 / 자격증 TOEDIT</span>
                             </div>
                             <div className = "right3">
                                 <button>[첨부 파일 등록]</button>
                             </div>
                         </div>
 
-                        <div>
+                        {/* <div>
                             <div className = "left3">
                                 <span>주민등록본</span>
                             </div>
@@ -312,7 +312,7 @@ class Form2 extends Component {
                             <div className = "right3">
                                 <button>[첨부 파일 등록]</button>
                             </div>
-                        </div>
+                        </div> */}
                         
                         <div>
                             <div className = "left3">

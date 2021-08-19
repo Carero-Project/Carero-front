@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import '../css/Children.css';
 import group_plus from '../assets/group_plus.png';
+// 공고 등록을 위한 페이지
+
 class Form1 extends Component {
 
     constructor(props){

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../css/Children.css';
 import Form2 from './Form2';
-
+// 프로필 작성
 class Elderly2 extends Component {
     render() {
         return (

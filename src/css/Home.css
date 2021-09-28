@@ -8,15 +8,17 @@
 }
 
 .box1{
-    border : 10px solid green;
+    /* border : 10px solid green; */
     /* width : 100vw; */
     /* width : 100%; */
+    object-fit:fill;
     background-image : url(../assets/HomeImage.png);
 }
 .box2{
     font-weight: bold;
     text-align : center;
-
+    align-items: center;
+    align-content: center;
 }
 .boxButton{
     margin-top : 130px;
@@ -30,4 +32,8 @@
 .box3{
     height : 130px;
     width : 100%;
+}
+
+.guideWrapper{
+    background-color:#FB8922;
 }

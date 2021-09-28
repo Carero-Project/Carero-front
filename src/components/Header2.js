@@ -30,20 +30,21 @@ class Header2 extends Component {
     render() {
         return (
             <Fragment>
+                <span style = {{marginLeft : "-80%", fontSize : "41px", color:"#FB8922", fontWeight : "500"}} >케어로</span>
                 <div className = "headBar1">
                    
                     <div className = "left2">
-                        <span>홈</span>
-                        <span>고객센터</span>
-                        <span>공지사항</span>
+                        <button className = "headerNavigateButton">홈</button>
+                        <button className = "headerNavigateButton">고객센터</button>
+                        <button className = "headerNavigateButton">공지사항</button>
                     </div>
                 
                     <div className = "right2">
-                        <span>케어구하기</span>
-                        <span>일자리찾기</span>
-                        <span>프로필</span>
-                        <span>로그인</span>
-                        <span>회원가입</span>
+                        <button className = "headerNavigateButton">케어구하기</button>
+                        <button className = "headerNavigateButton">일자리찾기</button>
+                        <button className = "headerNavigateButton">프로필</button>
+                        <button className = "headerNavigateButton">로그인</button>
+                        <button className = "headerNavigateButton" id = "headerNavigateSignUpBUtton">회원가입</button>
                     </div>       
                             
                     {/* <button>홈</button>
@@ -51,11 +52,11 @@ class Header2 extends Component {
                     <button>공지사항</button> */}
                 </div> 
                 <div className = "headBar2">
-                    <button>{this.props.value}</button>
-                    <span>{this.state.number}</span>
+                    <span id = "headBar2Title">{this.props.value}</span>
+                    {/* <span>{this.state.number}</span>
                     <button onClick = {this.goUp}>UP</button>
                     <button onClick = {this.goDown}>DOWN</button>
-                    <button onClick = {this.addTesting}>Add Component Testing</button>
+                    <button onClick = {this.addTesting}>Add Component Testing</button> */}
                 </div>
                 
             </Fragment>

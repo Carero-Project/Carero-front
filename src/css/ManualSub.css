@@ -1,0 +1,35 @@
+.ManualDetalButton{
+    background-image : url('../assets/ManualArrow.png');
+    /* object-fit: cover; */
+    object-fit:contain;
+    background-color:white;
+    width : 22px;
+    height : 38px;
+}
+
+.ManualDetalButton:hover{
+    border : 1px solid #FB8922;
+}
+
+.ManualSubWrapper{
+    text-align : left;
+    margin-bottom : 30px;
+}
+
+.ManualTitleNumber{
+    font-size : 40px;
+    font-family: 'Segoe UI';
+    font-weight : 600;
+    color : #FB8922;
+    padding-right: 1.5vw;
+}
+
+.ManualSubTitle{
+    font-size : 25px;
+    font-family: 'Segoe UI';
+    font-weight : 600;
+}
+
+.ManualSubDetailBox{
+    padding-left : 30px;
+}

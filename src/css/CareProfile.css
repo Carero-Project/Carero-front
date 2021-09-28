@@ -1,0 +1,31 @@
+#careProfileProflieBox{
+
+    background-image : url('../assets/careProfileProfileBox.png');
+    height : 328px;
+    width : 100%;
+    border : 3px solid black;
+    width : 100%;
+    text-align : left;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#zzimhagi
+{
+    background-image : url('../assets/heartButton.png');
+    width : 28px;
+    height : 26px;
+    background-color:white;
+}
+
+.careProfileBelowBox{
+    background-image:url('../assets/careProfileBelowBox.png');
+    height : 125px;
+    width : 100%;
+    text-align: left;
+    padding-top:30px;
+    margin-top:10px;
+    padding-left:60px;
+    font-size:25px;
+}

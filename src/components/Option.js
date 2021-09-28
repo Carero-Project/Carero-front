@@ -8,6 +8,12 @@ import House from './House';
 
 class Option extends Component {
 
+    testingButton = e =>{
+        // alert(e.target.value);
+        // const element = <e.target.value></e.target.value>;
+        const element = e.target.value;
+        ReactDOM.render(element, document.getElementById("putTarget"));
+    }
     
     childrenButton = () => {
         const element = <Children></Children>;
@@ -39,7 +45,7 @@ class Option extends Component {
                     <div className = "category">
                         <span className = "subtitle"><strong>분야 선택</strong></span>
                         <div >
-                            <button onClick = {this.childrenButton}>아동</button>
+                            <button onClick = {this.testingButton} value = {Children}>아동</button>
                             <button onClick = {this.elderlyButton}>노인/장애인</button>
                             <button onClick = {this.petButton}>반려 동물</button>
                             <button onClick = {this.houseButton}>가사 도우미</button>

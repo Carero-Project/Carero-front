@@ -1,0 +1,41 @@
+.signIn1Box{
+    background-image: url('../assets/group1104.png');
+    background-size : cover;
+    width : 100%;
+    height : auto;
+}
+
+.signInCenterRight{
+    height : 95px;
+}
+
+.signInDoubleCheckButton {
+    background-image : url('../assets/doubleCheckButton.png');
+    background-size : 100%;
+    width : 75px;
+    height : 28px;
+    border-radius: 0;
+}
+
+.signInCenterRight select {
+    border-radius: 0;
+    width : 9vw;
+    /* width : 100px; */
+    font-size : 21px;
+}
+
+.signInAgreeBox{
+    background-image : url('../assets/signInAgreeBoxBack.png');
+    height : fit-content;
+    text-align : left;
+    padding-top:30px;
+    padding-left : 70px;
+    font-size: 25px;
+}
+
+#signInButton{
+    margin-top : 5vw;
+    background-image : url('../assets/signInButton.png');
+    width : 240px;
+    height : 85px;
+}

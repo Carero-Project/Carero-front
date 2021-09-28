@@ -44,7 +44,14 @@ class Home extends Component {
                     <br></br>
                     <button><img src = {HomeMoreButton}></img></button>
                     <div className = "box3"></div>
+
+                    <div className = "guideWrapper">
+                        <h1>케어로 이용방법</h1>
+                        <button id = "guideShow2">채용자 회원</button>
+                        <button id = "guideShow2">케어 회원</button>
                     <img src = {HomeGuide}></img>
+                    </div>
+
                     <br></br>
                     <img src = {HomeNews}></img>
                     <br></br>

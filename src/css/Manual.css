@@ -1,0 +1,33 @@
+.ManualBigButton{
+    width : 286px;
+    height : 88px;
+    font-size : 31px;
+}
+
+.ManualBigButton:hover{
+    width : 286px;
+    height : 88px;
+    font-size : 31px;
+    border : 1px solid white;
+    background-color : #FB8922;
+}
+
+#ManualButtonsBox{
+    width : 100%;
+    height : 12vw;
+    margin-bottom : 5vw;
+    /* background-color : blue; */
+}
+
+#ManualButtonsBox > button{
+    font-size : 25px;
+    width : auto;
+    margin : 30px;
+    border-radius: 5px;
+    border : 2px solid #FB8922;
+    background-color: white;
+}
+
+#ManualButtonsBox > button:hover{
+    background-color: #FB8922;
+}

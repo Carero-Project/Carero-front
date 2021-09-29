@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import Header2 from './Header2';
 import '../css/Manual.css';
 import ManualSub_1 from './ManualSub_1';
+import axios from 'axios';
 class Manual extends Component {
 
     
@@ -12,11 +13,28 @@ class Manual extends Component {
         target2.appendChild(put2);
     }
 
+    APITesting = () =>{
+        axios({
+            method:'get',
+            url:'http://52.78.242.132:8080/',
+            params:{
+                page : 1,
+                limit : 8
+            }
+        })
+        .then(function (response){
+            console.log(response);
+        })
+        .catch(function (error){
+            console.log("FAILED");
+        });
+    }
 
     render() {
         return (
             <Fragment>
               <Header2 value = "이용안내"></Header2>  
+              <button onClick = {this.APITesting}>ApiTesting</button>
               <div id = "wrapper">
                 <div id = "left"></div>
                 <div id = "center" style = {{marginTop : "150px"}}>

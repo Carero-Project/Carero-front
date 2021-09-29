@@ -2,6 +2,8 @@ import React, { Component,Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import '../css/Header2.css';
 import Option from './Option';
+import Cares from './Cares';
+
 class Header2 extends Component {
 
     state = {
@@ -30,6 +32,7 @@ class Header2 extends Component {
     render() {
         return (
             <Fragment>
+                <br/><br/>
                 <span style = {{marginLeft : "-80%", fontSize : "41px", color:"#FB8922", fontWeight : "500"}} >케어로</span>
                 <div className = "headBar1">
                    

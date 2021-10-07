@@ -117,7 +117,7 @@ class Home extends Component {
 
                         <img src = {HomeReviews}></img>
                         <br></br>
-                        <button><img src = {HomeMoreButton}></img></button>
+                        <button style={{backgroundColor:"rgba(255,255,255,0)"}}><img src = {HomeMoreButton}></img></button>
 
                     <div className = "box3"></div>
 

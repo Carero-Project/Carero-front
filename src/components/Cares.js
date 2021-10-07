@@ -111,7 +111,7 @@ class Cares extends Component {
             
             <Fragment>
                 <Header2 value = "케어 구하기"></Header2>
-                <button onClick = {this.Testing12}>testing button</button>
+                {/* <button onClick = {this.Testing12}>testing button</button> */}
                 <div id = "wrapper">
                     <div id = "left"></div>
                     <div id = "center">

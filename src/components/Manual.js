@@ -15,12 +15,22 @@ class Manual extends Component {
 
     APITesting = () =>{
         axios({
-            method:'get',
-            url:'http://52.78.242.132:8080/',
-            params:{
-                page : 1,
-                limit : 8
-            }
+            method:'post',
+            url:'http://52.78.242.132:8080/user/signup',
+            // params:{
+            //     page : 0,
+            //     limit : 8
+            // }
+            data:{
+                "username": "test1234@naver.com",
+            "password": "test123",
+            "nickname": "testman",
+            "age" : 25,
+            "gender":"MALE",
+            "tel": "010-7777-7777",
+            "city": "서울특별시",
+            "sigungu": "관악구"
+        }
         })
         .then(function (response){
             console.log(response);
